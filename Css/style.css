@@ -14,8 +14,12 @@ Bold: 700
 - Line Height
 default : 1
 Small: 1.05
+Medium: 1.2
 Paragraph default: 1.6
 
+-Letter Spaceing 
+-0.5
+0.75
 
 --- 02 COLORS
 
@@ -62,18 +66,61 @@ body {
 /*******************************/
 
 
-/* GEMERAL COMPONENTS */
+/* GENERAL COMPONENTS */
 
 
 /*******************************/
 
-.heading-primary {
-    font-size: 5.2rem;
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
     font-weight: 700;
-    line-height: 1.05;
     color: #333;
     letter-spacing: -0.5px;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
     margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #cf711f;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    margin-bottom: 1.6rem;
 }
 
 .btn:visited,
@@ -259,4 +306,8 @@ body {
 .delivered-text span {
     color: #cf711f;
     font-weight: 700;
+}
+
+.section-how {
+    padding: 9.6rem 0;
 }
