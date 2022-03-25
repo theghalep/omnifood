@@ -138,6 +138,42 @@
 /*******************************/
 
 
+/* Featured SECTION */
+
+
+/*******************************/
+
+.section-featured {
+    padding: 4.8rem 0 3.2rem;
+}
+
+.heading-featured {
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
+    font-weight: 500;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+
+.logos-featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos-featured img {
+    height: 3.2rem;
+    opacity: .5;
+    filter: brightness(0);
+    -webkit-filter: brightness(0);
+}
+
+
+/*******************************/
+
+
 /* HOW IT WORKS SECTION */
 
 
