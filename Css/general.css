@@ -63,6 +63,7 @@ html {
     /* 10px / 16px = 0.625 * 100 = 62.5% */
     /* Percentage Of User's Browser Font-size Setting*/
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
