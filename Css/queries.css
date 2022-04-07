@@ -113,6 +113,7 @@
     /* Movile Nav */
     .btn-mobile-nav {
         display: block;
+        z-index: 9999;
     }
     .main-nav {
         background-color: rgba(255, 255, 255, 0.97);
@@ -158,12 +159,12 @@
         -ms-transform: translatex(0);
         -o-transform: translatex(0);
     }
-    /* .nav-open[name="menu-outline"] {
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
         display: none;
     }
-    .nav-open[name="close-outline"] {
-        display: block;
-    } */
     .main-nav-list {
         flex-direction: column;
         gap: 4.8rem;
