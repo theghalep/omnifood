@@ -116,7 +116,8 @@
         z-index: 9999;
     }
     .main-nav {
-        background-color: rgba(255, 255, 255, 0.97);
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
         position: absolute;
         top: 0;
         left: 0%;
@@ -130,11 +131,11 @@
         -moz-transform: translatex(-100%);
         -ms-transform: translatex(-100%);
         -o-transform: translatex(-100%);
-        transition: all 0.5s;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -o-transition: all 0.5s;
+        transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -ms-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
         /***************************/
         /*Hide Nav*/
         /***************************/
