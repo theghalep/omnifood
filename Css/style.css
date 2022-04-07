@@ -84,7 +84,7 @@
     color: #333;
 }
 
-ion-icon[name="close-outline"] {
+.header ion-icon[name="close-outline"] {
     display: none;
 }
 
@@ -185,7 +185,7 @@ ion-icon[name="close-outline"] {
 
 .logos-featured img {
     height: 3.2rem;
-    opacity: .5;
+    opacity: 0.5;
     filter: brightness(0);
     -webkit-filter: brightness(0);
 }
@@ -438,11 +438,11 @@ ion-icon[name="close-outline"] {
     /*ToHideTheSpacebetweenimgs*/
     display: block;
     width: 100%;
-    transition: all .4s;
-    -webkit-transition: all .4s;
-    -moz-transition: all .4s;
-    -ms-transition: all .4s;
-    -o-transition: all .4s;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
 }
 
 .gallery-item img:hover {
@@ -499,7 +499,7 @@ ion-icon[name="close-outline"] {
     top: 5%;
     right: -19%;
     transform: rotate(45deg);
-    padding: .8rem 8rem;
+    padding: 0.8rem 8rem;
     background-color: #ffd43b;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -624,7 +624,7 @@ ion-icon[name="close-outline"] {
 }
 
 .cta-img-box {
-    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/eating.jpg);
+    background-image: linear-gradient( to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/eating.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -729,7 +729,6 @@ ion-icon[name="close-outline"] {
 
 .address {
     margin-bottom: 2.4rem;
-    ;
 }
 
 .footer-nav {

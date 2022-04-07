@@ -65,13 +65,15 @@ html {
     /* Percentage Of User's Browser Font-size Setting*/
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     /* line-height: 1; */
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
 
@@ -175,11 +177,11 @@ body {
     -ms-border-radius: 9px;
     -o-border-radius: 9px;
     /*PutonOriginalState*/
-    transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
     /* only necessary for .btn */
     border: none;
     cursor: pointer;
